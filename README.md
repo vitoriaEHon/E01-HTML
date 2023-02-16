@@ -31,27 +31,7 @@ O gabarito deverá estar organizado no formato de uma tabela de duas colunas, on
 
 Dica: utilize as tags `<table>`, `<tr>`, `<td>`.
 
-## T4: Manual de Programação
-
-Ajude os calouros no aprendizado de programação em linguagem C!
-
-Escolha um dos tópicos abaixo e implemente uma página chamada `tutorial_c.html` explicando um dos tópicos escolhidos:
-
-* Variáveis e expressões matemáticas
-* Estruturas Condicionais
-* Estruturas de Repetição
-* Funções e métodos
-* Estruturas
-* Manipulação de Arquivos
-* Vetores e Matrizes
-* Como executar um programa em C
-
-Sua página deverá ter um título descrevendo o tópico a ser abordado, e pelo menos três seções.
-As seções deverão ser entituladas utilizando o elemento `<h2>`, e separados por *containers*.
-Ainda, utilize pelo menos dois elementos textuais (`<p>`, `<b>`, `<ul>`, etc) em cada uma dessas seções explicando o tópico escolhido.
-Necessáriamente, uma dessas seções deverá ser entitulada **Exemplo** e deverá conter um trecho de código multilinha ilustrando o uso do tópico escolhido.
-
-## T5: Formulário de cadastro
+## T4: Formulário de cadastro
 
 Crie um arquivo `formulario.html` e implemente um formulário HTML conforme a imagem a seguir:
 

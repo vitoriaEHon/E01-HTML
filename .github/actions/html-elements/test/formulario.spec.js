@@ -10,7 +10,7 @@ beforeAll(() => {
     $ = require('jquery')(dom.window);
 });
 
-describe('T5: Formulário de cadastro', () => {
+describe('T4: Formulário de cadastro', () => {
     it('deve ter criado o arquivo formulario.html', () => {
         expect($).toBeDefined();
 
