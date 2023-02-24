@@ -27,3 +27,6 @@ main {
     align-items: center;
     margin: auto;
 }
+label {
+    display: block;
+}

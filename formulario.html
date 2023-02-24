@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeuSite-Coltec</title>
+</head>
+<body>
+    <main>
+    <h1 style="font-size: 64px">Colégio Técnico da UFMG</h1>
+        <img class="borda" src="banhoDeSol.jpg" alt="patio">
+        <h2>Dados Pessoais</h2>
+        <!-- Form-->
+        <form>
+            <div>
+                <label>Código:</label>
+                <input type="number">
+                <label>Nome:</label>
+                <input type="text">
+                <label>Senha:</label>
+                <input type="password">
+
+                <label>Sexo:</label>
+                <label>
+                    <input type="radio" name="status">Feminino
+                    <input type="radio" name="status">Masculino
+                </label>
+
+                <label>Idade:</label>
+                <input type="number">
+
+                <label>Cartão Crédito</label>
+                <select multiple>
+                <option>Mastercard</option>
+                <option>Visa</option>
+                <option>American Express</option>
+                </select>
+            </div>
+            <div>
+                <h2>Dados Profissionais</h2>
+                <label>Cargo:</label>
+                <select>
+                  <option>Analista Júnior</option>
+                  <option>Analista Sênior</option>
+                  <option>Analista Pleno</option>
+                </select>
+
+                <label>Dados Pessoais:</label>
+                <label>
+                    <label><input type="checkbox" value="terms">Fumante</label>
+                    <label><input type="checkbox" value="terms">Pŕatica exercícios físicos</label>
+                    <label><input type="checkbox" value="terms">Consome bebida alcólica</label>
+                </label>
+
+                <label>Experiências Profissionais:</label>
+                <textarea rows="13" cols="40" placeholder="Data Início/Data Fim; Empresa; Cargo"></textarea>
+
+                <label>
+                    <button type="reset">Limpar</button>
+                    <button>Inserir</button>                        
+                </label>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
